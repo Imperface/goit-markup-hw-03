@@ -85,8 +85,7 @@ body {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -101,15 +100,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 /* navigation */
 .navigation {
   display: flex;
   align-items: center;
-  gap: 76px;
+}
+.navigation-logo-web {
+  margin-right: 76px;
 }
 .navigation-list {
   display: flex;
@@ -120,6 +119,7 @@ body {
 .contact-list {
   display: flex;
   align-items: center;
+  padding: 24px 0;
   gap: 40px;
 }
 .logo {
@@ -177,14 +177,13 @@ body {
   text-align: center;
 }
 .container-hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .hero-title {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -192,7 +191,12 @@ body {
   color: var(--color-text-hero-title);
 }
 .hero-button {
-  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -211,8 +215,7 @@ body {
 
 /* features */
 .container-features {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .features-list {
   display: flex;
