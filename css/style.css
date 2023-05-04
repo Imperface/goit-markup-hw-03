@@ -119,8 +119,10 @@ body {
 .contact-list {
   display: flex;
   align-items: center;
-  padding: 24px 0;
   gap: 40px;
+}
+.contact-item {
+  padding: 24px 0;
 }
 .logo {
   text-transform: uppercase;
@@ -137,7 +139,7 @@ body {
 .navigation-logo-studio {
   color: var(--color-text-navigation-logo-studio);
 }
-.navigation-item {
+.navigation-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -150,8 +152,8 @@ body {
 }
 */
 
-.navigation-item:hover,
-.navigation-item:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--color-navigation-hover-focus);
 }
 
@@ -159,14 +161,14 @@ body {
 .contact {
   font-style: normal;
 }
-.contact-item {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-secondary);
 }
-.contact-item:hover,
-.contact-item:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--color-contact-hover-focus);
 }
 
@@ -174,11 +176,10 @@ body {
 
 .hero {
   background: var(--color-background-hero);
+  padding: 188px 0;
   text-align: center;
 }
-.container-hero {
-  padding: 188px 0;
-}
+
 .hero-title {
   margin-right: auto;
   margin-left: auto;
@@ -214,7 +215,7 @@ body {
 }
 
 /* features */
-.container-features {
+.features {
   padding: 120px 0;
 }
 .features-list {
@@ -254,10 +255,9 @@ body {
 .specialization-list {
   display: flex;
   gap: 24px;
-}
-.container-specialization {
   padding-bottom: 120px;
 }
+
 .specialization-title {
   margin-bottom: 72px;
 }
@@ -269,10 +269,7 @@ body {
 }
 
 /* team */
-.container-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .team-title {
   margin-bottom: 72px;
 }
@@ -281,6 +278,8 @@ body {
   gap: 24px;
 }
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: var(--color-background-team);
 }
 .team-item {
@@ -292,10 +291,10 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .card-description {
-  margin: 32px 16px;
+  padding: 32px 16px;
 }
 .team-name {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -364,13 +363,13 @@ body {
 
 /* footer */
 .footer {
+    padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--color-background-footer);
 }
-.container-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
 .footer-logo-web {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-studio-invert {
