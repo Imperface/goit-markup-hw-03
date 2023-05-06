@@ -106,7 +106,6 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  
 }
 .navigation-logo-web {
   margin-right: 76px;
@@ -115,9 +114,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
-
 
 .contact-list {
   display: flex;
@@ -146,6 +143,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-main);
+  display: block;
+  padding: 24px 0;
 }
 /*
 .current {
