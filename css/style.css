@@ -106,6 +106,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  
 }
 .navigation-logo-web {
   margin-right: 76px;
@@ -114,19 +115,16 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-.navigation-item {
   padding: 24px 0;
 }
+
 
 .contact-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.contact-item {
-  padding: 24px 0;
-}
+
 .logo {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
