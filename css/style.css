@@ -100,13 +100,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 
 /* navigation */
 .navigation {
   display: flex;
   align-items: center;
-  
 }
 .navigation-logo-web {
   margin-right: 76px;
@@ -115,9 +115,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
-
 
 .contact-list {
   display: flex;
