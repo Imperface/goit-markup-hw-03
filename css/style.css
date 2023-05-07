@@ -40,7 +40,6 @@
   --color-filter-button-hover-focus: #404bbf;
 
   --color-border-bottom-header: #e7e9fc;
-  --color-border-specialization-item: #e7e9fc;
   --color-border-filter-button: #e7e9fc;
   --color-border-works-list-description: #e7e9fc;
 
@@ -269,9 +268,6 @@ body {
 }
 .specialization-item {
   width: calc((100% - 48px) / 3);
-}
-.specialization-list li img {
-  border: 1px solid var(--color-border-specialization-item);
 }
 
 /* team */
