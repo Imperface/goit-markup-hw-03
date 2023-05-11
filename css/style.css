@@ -104,7 +104,34 @@ body {
   width: 1158px;
 }
 
-/* STUDIO */
+/* ============ COMPONENTS ============ */
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text-secondary-title);
+  text-align: center;
+}
+.card-title {
+  /* features, team */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
+}
+.card-description {
+  /* features, team */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ============ COMPONENTS ============ */
+
+/* ============ STUDIO ============ */
+/* ============ HEADER ============ */
 .header {
   border-bottom: 1px solid var(--color-border-bottom-header);
 }
@@ -113,8 +140,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-/* navigation */
 .navigation {
   display: flex;
   align-items: center;
@@ -159,8 +184,6 @@ body {
 .navigation-link:focus {
   color: var(--color-navigation-hover-focus);
 }
-
-/* contact */
 .contact {
   font-style: normal;
 }
@@ -174,9 +197,9 @@ body {
 .contact-link:focus {
   color: var(--color-contact-hover-focus);
 }
+/* ============ /HEADER ============ */
 
-/* hero */
-
+/* ============ HERO ============ */
 .hero {
   padding: 188px 0;
   text-align: center;
@@ -216,8 +239,9 @@ body {
 .hero-button:focus {
   background: var(--color-background-button-order-hover-focus);
 }
+/* ============ /HERO ============ */
 
-/* features */
+/* ============ FEATURES ============ */
 .features {
   padding: 120px 0;
 }
@@ -230,31 +254,10 @@ body {
 }
 .features-subtitle {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-text-main);
 }
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/* ============ /FEATURES ============ */
 
-/* secondary-title */
-
-.secondary-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-text-secondary-title);
-  text-align: center;
-}
-
-/* specialization */
+/* ============ SPECIALIZATION ============ */
 .specialization {
   padding-bottom: 120px;
 }
@@ -262,16 +265,15 @@ body {
   display: flex;
   gap: 24px;
 }
-
 .specialization-title {
   margin-bottom: 72px;
 }
 .specialization-item {
   width: calc((100% - 48px) / 3);
 }
+/* ============ /SPECIALIZATION ============ */
 
-/* team */
-
+/* ============ TEAM ============ */
 .team-title {
   margin-bottom: 72px;
 }
@@ -292,31 +294,21 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.card-description {
+.card-container {
   padding: 32px 16px;
 }
 .team-name {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-text-main);
 }
-.team-position {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/* ============ /TEAM ============ */
+/* ============ /STUDIO ============ */
 
-/* PORTFOLIO */
-
+/* ============ PORTFOLIO ============ */
+/* ============ WORKS ============ */
 .works {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-
-/* filter-button */
 .works-filter-button {
   padding: 12px 24px;
   font-family: 'Roboto', sans-serif;
@@ -330,7 +322,6 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .works-filter-button:hover,
 .works-filter-button:focus {
   background: var(--color-filter-button-hover-focus);
@@ -339,16 +330,12 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .works-filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
 }
-
-/* works */
-
 .works-list {
   display: flex;
   justify-content: center;
@@ -378,14 +365,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-secondary);
 }
+/* ============ /WORKS ============ */
 
-/* footer */
+/* ============ FOOTER ============ */
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background: var(--color-background-footer);
 }
-
 .footer-logo-web {
   display: inline-block;
   margin-bottom: 16px;
@@ -400,3 +387,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-footer);
 }
+/* ============ /FOOTER ============ */
